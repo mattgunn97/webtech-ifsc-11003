@@ -1,0 +1,33 @@
+/*  ---------------Box Sizing-----------------  */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*<palette>
+<color name='80s-retro-futuristic-sci-fi.-Retrowave-VJ-videogame-landscape,-neon-lights-and-low-poly-terrain-grid.-Stylized-vintage-vaporwave-3d-illustration-background-with-mountains,-sun-and-stars.-1' rgb='F06BF2' r='239' g='106' b='242' />
+<color name='80s-retro-futuristic-sci-fi.-Retrowave-VJ-videogame-landscape,-neon-lights-and-low-poly-terrain-grid.-Stylized-vintage-vaporwave-3d-illustration-background-with-mountains,-sun-and-stars.-2' rgb='532473' r='83' g='35' b='114' />
+<color name='80s-retro-futuristic-sci-fi.-Retrowave-VJ-videogame-landscape,-neon-lights-and-low-poly-terrain-grid.-Stylized-vintage-vaporwave-3d-illustration-background-with-mountains,-sun-and-stars.-3' rgb='7630D9' r='118' g='47' b='216' />
+<color name='80s-retro-futuristic-sci-fi.-Retrowave-VJ-videogame-landscape,-neon-lights-and-low-poly-terrain-grid.-Stylized-vintage-vaporwave-3d-illustration-background-with-mountains,-sun-and-stars.-4' rgb='04588C' r='4' g='88' b='140' />
+<color name='80s-retro-futuristic-sci-fi.-Retrowave-VJ-videogame-landscape,-neon-lights-and-low-poly-terrain-grid.-Stylized-vintage-vaporwave-3d-illustration-background-with-mountains,-sun-and-stars.-5' rgb='79F2E6' r='121' g='242' b='230' />
+</palette>*/
+
+/*  ---------------Gobal Styles-----------------  */
+body {
+  background-color:#532473;
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header.primary{
+  background:#79F2E6;
+  color:#ffffff;
+  text-align:center;
+  text-shadow: 1px 1px #000000;
+}
