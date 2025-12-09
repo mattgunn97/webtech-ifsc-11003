@@ -1,0 +1,203 @@
+/* --------------- Utility Classes ----------------- */
+
+.container {
+  width: 80vw;
+  max-width: 960px;
+  margin: 40px auto;
+}
+
+.img-right {
+  float: right;
+  border: 3px double #abf263;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 0 10px 20px;
+}
+
+.img-left {
+  float: left;
+  border: 3px double #abf263;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 10px 20px 10px 0;
+}
+
+.img-center {
+  display: block;
+  margin: 10px auto;
+  border: 3px double #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* ----------------- Responsive Images ----------------- */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ----------------- Color Palette (for reference) -----------------
+
+#0B1726 - Dark Blue
+#2F4C73 - Lighter Blue
+#A64B37 - Rust
+#D9736A - Salmon
+#F2C2C2 - Pink
+
+------------------------------------------------------------------ */
+
+/* ----------------- Global Styles ----------------- */
+
+body {
+  background-color: #0b1726;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%232f4c73' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+/* ----------------- Header & Navigation ----------------- */
+
+header.primary {
+  background-color: #2f4c73;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%230b1726' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px #000000;
+  padding: 20px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+header.primary h1 {
+  margin: 0;
+  color: #a64b37;
+}
+
+header.primary h1 a {
+  color: #a64b37;
+  text-decoration: none;
+}
+
+header.primary nav ul {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 960px;
+  margin: 20px auto 0;
+}
+
+header.primary nav li {
+  list-style-type: none;
+}
+
+header.primary nav a {
+  color: #ffffff;
+  background: #2f4c73;
+  padding: 5px 7.5px;
+  border-radius: 20px;
+  border: 1px solid #a64b37;
+  transition: 1s;
+  text-decoration: none;
+}
+
+header.primary nav a:hover {
+  background: rgba(11, 23, 38, 0.8);
+}
+
+/* ----------------- Main Content Section ----------------- */
+
+#content {
+  background-color: #2f4c73;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%230b1726' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 1px #000000;
+  padding: 10px;
+  font-size: 0.87rem;
+}
+
+#content h2 {
+  text-align: center;
+  color: #a64b37;
+  margin-top: 10px;
+}
+
+#content .faq-list li {
+  color: #a64b37;
+  text-shadow: 2px 2px #000000;
+}
+
+#content p {
+  color: #d9736a;
+  line-height: 1.5;
+}
+
+#content figure {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+#content figcaption {
+  color: #d9736a;
+  font-size: 0.85rem;
+  margin-top: 5px;
+}
+
+#content header {
+  margin-bottom: 30px;
+}
+
+/* ----------------- Rover Info Section (homepage) ----------------- */
+
+#roverinfo {
+  text-align: center;
+  background-color: #2f4c73;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%230b1726' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  margin: 0;
+  color: #a64b37;
+  text-shadow: 1px 1px #000000;
+}
+
+#roverinfo figcaption {
+  color: #d9736a;
+  text-align: left;
+}
+
+#roverinfo ul {
+  color: #d9736a;
+  text-align: left;
+}
+
+/* ----------------- Background Section (homepage) ----------------- */
+
+#background {
+  text-align: center;
+  background-color: #2f4c73;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%230b1726' fill-opacity='0.4'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  color: #a64b37;
+  text-shadow: 1px 1px #000000;
+  padding: 10px;
+}
+
+#background p {
+  color: #d9736a;
+}
+
+/* ----------------- Footer ----------------- */
+
+#colophon {
+  padding: 5px;
+  color: #f2c2c2;
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+}
+
+#colophon.primary a {
+  color: #d9736a;
+}
