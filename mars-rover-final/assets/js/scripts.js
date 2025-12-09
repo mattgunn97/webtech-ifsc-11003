@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $('.fade').slick({
+    $('.rover-slider').slick({
       dots: true,
       infinite: true,
       speed: 500,
@@ -8,7 +8,7 @@ $(document).ready(function() {
       slide: 'div',
       cssEase: 'linear',
       autoplay: true,
-      autoplaySpeed: 2000
+      autoplaySpeed: 4000
     });
 
 
